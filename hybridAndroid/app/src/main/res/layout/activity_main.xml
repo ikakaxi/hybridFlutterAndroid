@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/page1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="addContentView方式添加FlutterView"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/page2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通Fragment方式添加FlutterView"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/page3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用FlutterFragmentActivity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/page4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用FlutterActivity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/page1Param"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="addContentView方式添加FlutterView并传递参数"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/noBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解决debug模式下黑屏的另一种方式"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/jumpByChannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点我进入Flutter页面(Channel方式)"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/insertAndroidView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点我进入Flutter页面(嵌入Android平台的View的方式)"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>

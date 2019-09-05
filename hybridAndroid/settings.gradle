@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name = 'hybridAndroid'
+setBinding(new Binding([gradle: this]))
+evaluate(new File(settingsDir.parentFile, 'flutter_lib/.android/include_flutter.groovy'))
